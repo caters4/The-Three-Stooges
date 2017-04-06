@@ -1,0 +1,125 @@
+==<!DOCTYPE html>
+<html>
+  <body>
+  <head>
+    <meta charset="utf-8">
+    <title>Home Page | Stevo's Hot Wings</title>
+ <link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <style>
+body {margin:0;}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+                p {
+        font-size: 20px;
+        font-weight: bold;
+}  
+    h1 {
+      font-size: 90px;
+      color: white;
+      }
+      h2 {
+      color: white;
+      }
+      </style>
+    </head>
+  <body>
+       <img src="img/logo.jpg" class="logo" alt="">
+    <div class="topnav" id="myTopnav">
+        <nav>
+        <ul>
+  <li><a href="#home.html" class="selected">Home</a></li>
+  <li><a href="#deals.html">Deals</a></li>
+  <li><a href="#menu.html">Menu</a></li>
+  <li><a href="#mission.html">Mission</a></li>
+  <li><a href="#suppliers.html">Suppliers</a></li>
+  <li><a href="#contact.html">Contact</a></li>
+  <li><a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a></li>
+        <h1>Stevo's Hot Wings</h1>
+        <h2>Stevo's Brings Families Together</h2>
+    <div class="primary-content t-border"></div>
+      <p>
+        Stevo's Hot Wings is an outstanding restaurant located on Campbell Street in Jackson Tennessee. Stevo's is known for having some of the hottest wings in the city and it's also known to be a place of peace. "WE ARE THE WINGS OF THE CENTURY."
+        </p>
+<br>
+        <div id="wrapper">
+      <section>
+            <section>
+      <ul>
+        <li>
+          <img src="img/wingsandfries.jpg" class="selected" alt="">
+          <p>This picture shows Stevo's prize possession, which would be our hot wings.</p>
+          <img src="img/storefront2.jpg" class="selected" alt="">
+          <p>This is the front of the other store.</p>
+          <img src="img/hotwings.jpg" class="selected" alt="">
+          <p>This is another picture of our hot wings.</p>
+          <img src="img/knocksothersout.jpg" class="selected" alt="">
+          <p>Our hot wings are the best in the city. We truly knock others out.</p>
+        </li>
+      </ul>
+      </section>
+        <ul id="gallery">
+          <script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+            </ul>
+        </section>
+        </div>
+        <footer>
+          <p>&copy; 2017 HOT WINGS.</p>
+        </footer>
+          </ul>
+          </body>
+  </html>
