@@ -4,6 +4,8 @@ GENERAL
 
 body { 
   font-family: 'Open Sans', sans-serif; 
+  background-repeat: no-repeat;
+  background-image: cover;
 }
 
 #wrapper {
@@ -22,6 +24,9 @@ img{
 
  h3 {
   margin: 0 0 1m 0; }
+
+
+
 /*********************************
 HEADING
 **********************************/
@@ -158,19 +163,19 @@ COLORS
 
 /* site body */
 body{
-  background-color: #fff;
+  background-color:;
   color: #fff;
 }
 
 /* green header */
 header {
-  background:  #0000ff;
-  border-color: #599a68;
+  background:  #32673f;
+  border-color: #000fff;
 }
 
 /* nav background on mobile */
 nav {
-  background: #599a68;
+  background: #d23f2f;
 }
 
 
@@ -181,7 +186,7 @@ h1, h2 {
 
 /* links */
 a {
-  color: #6ab47b;
+  color: #000fff;
 }
 
 /* nav link */
@@ -193,16 +198,3 @@ nav a, nav a:visited {
 nav a.selected, nav a:hover {
   color: #32673f;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
